@@ -12,7 +12,7 @@ const Home = () => {
   console.log("Appointments güncellendi Home Componenti render oldu.")
   return (
     <main className="text-center mt-2">
-      <h1 className="display-5 text-danger">CLARUS HOSPITAL</h1>
+      <h1 className="display-5 text-danger">FAZE HOSPITAL</h1>
       <Doctors setApps={setAppointments} apps={appointments} />
       <AppointmentList apps={appointments} setApps={setAppointments} />
     </main>
